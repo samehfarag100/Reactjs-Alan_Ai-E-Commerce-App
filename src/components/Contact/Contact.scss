@@ -1,0 +1,46 @@
+.contact {
+  background-color: #2879fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10rem;
+  padding: 1rem 1rem;
+  .contact_title {
+    h3 {
+      color: #fff;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .contact_inputField {
+    display: flex;
+    column-gap: 0.5rem;
+    input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+    button {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background-color: #111;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .contact_Links {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    a {
+      color: #fff;
+      font-size: 1.5rem !important;
+    }
+  }
+}
